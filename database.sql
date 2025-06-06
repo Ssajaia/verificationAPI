@@ -1,7 +1,10 @@
-CREATE DATABASE pernt;
+CREATE DATABASE user ;
 
-CREATE TABLE todo(
-    todo_id SERIAL PRIMARY KEY,
-    description VARCHAR(255) unique
+CREATE TABLE userData(
+userId SERIAL PRIMARY KEY,
+name varchar(255),
+Lname varchar(255),
+age int,
+password varchar(255),
+email varchar(255),
 )
-
